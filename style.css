@@ -1,0 +1,145 @@
+*,*::after,*::before{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    background-image: url(https://w0.peakpx.com/wallpaper/287/482/HD-wallpaper-blue-background-with-purple-triangles-blue-bastraction-background-triangles-abstraction-background-creative-blue-background.jpg);
+    width: 100%;
+    height: auto;
+    min-height: 650px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0 100px 0 !important;
+}
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #f6cefc !important;
+    letter-spacing: 5px;
+}
+.container{
+    margin-top: 60px;
+}
+.counter_body{
+    border: 3px solid #f6cefc;
+    padding: 25px;
+    border-radius: 50px;
+    width: 350px;
+    align-items: center;
+    text-align: center;
+}
+#minus{
+    margin: 5px;
+    display: inline-block ;
+    border-radius: 50px ;
+    transition: all .4s ease-in-out ;
+    padding: 10px 27px ;
+    background-color: transparent ;
+    border: 2px solid #f6cefc;
+    color: #f6cefc;
+    font-weight: 500 ;
+    font-size: 14px ;
+    text-transform: uppercase ;
+    letter-spacing: 2px ;
+    text-decoration: none ;
+}
+#minus:hover{
+    color: rgb(0, 0, 0);
+    background-color: lightcoral;
+}
+#reset{
+    margin: 5px;
+    display: inline-block ;
+    border-radius: 50px ;
+    transition: all .4s ease-in-out ;
+    padding: 10px 27px ;
+    background-color: transparent ;
+    border: 2px solid #f6cefc;
+    color: #f6cefc;
+    font-weight: 500 ;
+    font-size: 14px ;
+    text-transform: uppercase ;
+    letter-spacing: 2px ;
+    text-decoration: none ;
+}
+#reset:hover{
+    color: rgb(0, 0, 0);
+    background-color: gray;
+}
+
+#plus{
+    margin: 5px;
+    display: inline-block ;
+    border-radius: 50px ;
+    transition: all .4s ease-in-out ;
+    padding: 10px 27px ;
+    background-color: transparent ;
+    border: 2px solid #f6cefc;
+    color: #f6cefc ;
+    font-weight: 500 ;
+    font-size: 14px ;
+    text-transform: uppercase ;
+    letter-spacing: 2px ;
+    text-decoration: none ;
+}
+#plus:hover{
+    color: rgb(0, 0, 0);
+    background-color: lightgreen;
+}
+
+@media (max-width:767px) {
+    .counter_body {
+        width: 300px;
+    }
+    #minus{
+        margin: 5px;
+        display: inline-block ;
+        border-radius: 50px ;
+        transition: all .4s ease-in-out ;
+        padding: 7px 22px ;
+        background-color: transparent ;
+        border: 2px solid #f6cefc;
+        color: #f6cefc;
+        font-weight: 500 ;
+        font-size: 11px ;
+        text-transform: uppercase ;
+        letter-spacing: 2px ;
+        text-decoration: none ;
+    }
+    #plus{
+        margin: 5px;
+        display: inline-block ;
+        border-radius: 50px ;
+        transition: all .4s ease-in-out ;
+        padding: 7px 22px ;
+        background-color: transparent ;
+        border: 2px solid #f6cefc;
+        color: #f6cefc;
+        font-weight: 500 ;
+        font-size: 11px ;
+        text-transform: uppercase ;
+        letter-spacing: 2px ;
+        text-decoration: none ;
+    }
+    #reset{
+        margin: 5px;
+        display: inline-block ;
+        border-radius: 50px ;
+        transition: all .4s ease-in-out ;
+        padding: 7px 22px ;
+        background-color: transparent ;
+        border: 2px solid #f6cefc;
+        color: #f6cefc;
+        font-weight: 500 ;
+        font-size: 11px ;
+        text-transform: uppercase ;
+        letter-spacing: 2px ;
+        text-decoration: none ;
+    }
+    h1{
+        letter-spacing: 2px;
+    }
+
+}
